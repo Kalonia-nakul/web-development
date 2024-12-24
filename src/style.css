@@ -1,0 +1,107 @@
+#logo{
+    align-content: center;
+    height: 40px;
+    padding: 0 0 0 30%;
+    
+}
+#logo_name{
+    font-weight: bold;
+}
+header{
+    width : 200px ;
+}
+.about_me{
+    overflow: auto;
+    display: flex;
+}
+#about_me{ 
+    width: 50%;
+    margin: auto 0;
+    text-align: center; 
+}
+#banner{
+    width: 30%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+.foot{
+    margin-top: 4%;
+    float: left;
+    width: 25%;
+}
+#job_opp{
+    text-align: center;
+}
+#job{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+#job-table{
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.job-header th {
+    border: 1px solid grey ;
+    padding: 4px;
+    text-align: left;
+
+}
+.job-data-row td{
+    border: 1px solid grey;
+    padding: 4px;
+}
+
+#job-table tr:nth-child(odd){
+    background-color: azure;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto' , sans-serif;
+}
+
+#application{
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#application-form{
+    margin: 0 auto;
+
+}
+
+#application-form label{
+    font-family:  roboto;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+#application-form input , select  , textarea {
+    padding: 4px;
+    font-size: 17px;
+    border: 2px solid gray ;
+}
+
+#application-form div{
+    margin: 16px;
+}
+
+
+#application h2{
+    text-align: center;
+}
+
+#coverletter{
+    width: 80%;
+    
+    font-family: roboto;
+}

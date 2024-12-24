@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            basic site
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <img src="logo.jpg" alt="Logo not found" id="logo">
+            <div id="logo_name">
+                Lambergini Developer
+            </div>
+        </header>
+
+        <div class="about_me">
+            <div id="about_me">
+                <h2>About Me</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit dolore unde odit autem ratione ut culpa veritatis aut voluptatem repellat corrupti fugiat nam temporibus quia, totam minus ullam, necessitatibus sunt dignissimos vitae quam atque?
+                </p>
+            </div>
+            <img src="banner.jpg.jpg" alt="banner not found" id="banner">
+            
+        </div>
+
+        <h2 id="job_opp">JOB OPPORTUNITIES</h2>
+        <div id="job">
+            <table id="job-table">
+                <tr class="job-header">
+                    <th rowspan="2">JOB TITLE</th>
+                    <th colspan="2">LOCATION</th>                
+                    <th rowspan="2">SALARY</th>
+                    <th rowspan="2">POSTED ON</th>
+                </tr>
+                <tr class="job-header">
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+                <tr class="job-data-row">
+                    <td>Frontend</td>
+                    <td>delhi</td>
+                    <td>India</td>
+                    <td>50,000</td>
+                    <td>5-10-2025</td>                    
+                </tr>
+                <tr class="job-data-row">
+                    <td>Backend</td>
+                    <td>Mumbai</td>
+                    <td>India</td>
+                    <td>10,000</td>
+                    <td>8-5-2024</td>                    
+                </tr>
+                <tr class="job-data-row">
+                    <td>Web Developer</td>
+                    <td colspan="2">REMOTE</td>
+                    <td>70,000</td>
+                    <td>5-2-2014</td>                    
+                </tr>
+
+            </table>
+        </div>
+
+
+        <div id="application">
+            <h2>Submit your application</h2>
+            <form id="application-form">
+                <div>
+                    <label for="full name">Full Name</label> <br>
+                    <input type="text" id="name" name="full name" required>
+                </div>
+
+                <div>
+                    <label for="Email">Email</label> <br>
+                    <input type="email" id="email" name="Email" required>
+                </div>
+
+                <div>
+                    <label for="phone-no">Phone no.</label> <br>
+                    <input type="tel" id="phone-no" name="phone-no" required>
+                </div>
+
+                <div>
+                    <label for="DOB">D.O.B</label> <br>
+                    <input type="date" id="DOB" name="DOB" required>
+                </div>
+
+                <div>
+                    <label for="position">Position Applied For </label> <br>
+                    <select name="position" id="position" required>
+                        <option value="">Select Position</option>
+                        <option value="Frontend">Frontend Developer</option>
+                        <option value="Backend">Backend Developer</option>
+                        <option value="full stack">Full Stack Developer</option>
+                        <option value="ML Developer">ML Developer</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="resume">Upload Resume</label> <br>
+                    <input type="file" id="resume" name="resume" accept=".docx , .pdf , .doc" required>
+                </div>
+
+                <div>
+                    <label for="coverletter">Cover Letter</label>  <br>
+                    <textarea name="coverletter" id="coverletter" placeholder="Explain what makes you suitable for this job... "></textarea> 
+                </div>
+
+                <div>
+                    <label for="forterms">
+                        <input type="checkbox" name="forterms" id="checkbox" required>
+                        I agree the terms and conditions...
+                    </label>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+
+            </form>
+        </div>
+
+
+        <footer>
+            <span class="foot">
+                <h2 class="all">courses</h2>
+                <ul class="all">
+                    <li>
+                        <a href="google.com">google</a>
+                    </li>
+                    <li>
+                        <a href="youtube.com">Youtube</a>
+                    </li>
+                </ul>
+            </span>
+
+            <span class="foot">
+                <h2 class="all">About me</h2>
+                <ul class="all">
+                    <li>
+                        <a href="google.com">google</a>
+                    </li>
+                    <li>
+                        <a href="youtube.com">Youtube</a>
+                    </li>
+                </ul>
+            </span>
+        </footer>
+    </body>
+
+</html>
